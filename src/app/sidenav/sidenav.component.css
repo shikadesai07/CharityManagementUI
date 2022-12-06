@@ -1,0 +1,59 @@
+.sidebar {
+    background-color: #02152C;
+    height: 100%;
+    width: 293px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 1.5rem;
+    z-index: 1;
+    position: fixed;
+
+}
+.menu{
+    font-size: 2rem;
+    color: black;
+
+}
+.image-logo{
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+  border-radius: 50%;
+  
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+    
+}
+button{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    font-family: Poppins;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    font-weight: bold;
+    background-color: #54A8FC !important;
+}
+
+.fa-x
+{
+display: none;}
+
+
+.hidden{
+    display: none;
+}
+@media (min-width:1028px) {
+    .hidden{
+        display: block;
+    }
+    
+}

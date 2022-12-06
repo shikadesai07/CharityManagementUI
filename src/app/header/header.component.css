@@ -1,0 +1,34 @@
+.header{
+    margin-left: 293px !important;
+    height: 6rem;
+    background-color:white;
+    box-shadow: 6px 6px 8px lightgrey;
+    display: flex;
+    align-items: center;
+   
+}
+h1{
+    margin-left: 105px;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: bold;
+    
+}
+button{
+    border: none;
+}
+
+.fa-user{
+    color: #54A8FC;
+    padding-right: 1rem;
+}
+.logout{
+    position: absolute;
+    right: 105px;
+    width:109px;
+    height: 43px;
+    background-color: #54A8FC !important;
+    font-size: 1em;
+    font-family: Poppins;
+    font-weight: 600;
+}
