@@ -8,7 +8,7 @@ import { UserCreateComponent } from './adminModule/userManagement/user-create/us
 import { UserListComponent } from './adminModule/userManagement/user-list/user-list.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,7 @@ import { HeaderComponent } from './header/header.component';
     SidenavComponent,
     HeaderComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

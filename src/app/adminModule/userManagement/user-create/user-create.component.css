@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     margin-left: 293px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .button1{
     background-color: #54A8FC !important;
@@ -12,6 +12,9 @@ body{
   height: 37px;
     margin-top: 1rem;
     border-radius: 3px !important;
+    color: white;
+    font-weight: 600;
+    font-family: Poppins;
 }
 
 p{
