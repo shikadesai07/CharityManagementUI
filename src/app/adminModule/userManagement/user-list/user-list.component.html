@@ -1,1 +1,27 @@
-<p>user-list works!</p>
+<div class="user-list">
+  <table class="table table-borderless">
+    <thead class="table-dark">
+      <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Contact</th>
+        <th class="text-center">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users; let idx = index">
+        <td>{{ idx + 1 }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.role }}</td>
+        <td>{{ user.contact }}</td>
+        <td class="d-flex justify-content-around">
+          <i class="fa fa-regular fa-pen"></i>
+          <i class="fa fa-regular fa-trash"></i>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

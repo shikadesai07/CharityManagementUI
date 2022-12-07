@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UserCreateComponent } from './adminModule/userManagement/user-create/user-create.component';
+import { UserListComponent } from './adminModule/userManagement/user-list/user-list.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'createuser',
     component: UserCreateComponent,
+  },
+  {
+    path: 'users',
+    component: UserListComponent,
   },
 ];
 
